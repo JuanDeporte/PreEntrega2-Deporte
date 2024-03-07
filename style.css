@@ -1,3 +1,6 @@
+
+/* general */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +8,20 @@
     max-width: 100%;
 }
 
+.fondo{
+    background-color:rgb(76, 76, 165);
+}
+
+/* home y hospedaje */
+
 .img1, .img2, .img3 {
     width: 90%;
     height: 90%;
     margin-left: 7%;
     margin-right: -4.5%;
+    border-radius: 10px;
 }
 
-.fondo {
-    background-color:aquamarine;
-}
 
 .txt1, .txt2 {
     padding: 3%;
@@ -64,8 +71,54 @@ span {
     margin-bottom: 1%;
 }
 
-.vid1, .vid2 {
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-bottom: 2%;
+/* contacto */
+form {
+
+    width: 60%;
+    background-color: rgb(45, 45, 113);
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding: 30px;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.h2cont {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+form input {
+    width: 100%;
+    font-size: 28px;
+    border:none;
+    border-bottom: 3px solid lightslategray;
+    background-color: rgb(45, 45, 113);
+}
+
+.h3cont {
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    font-size: 28px;
+    background-color: transparent;
+    border:none;
+}
+
+#enviar {
+    font-size: 28px;
+    border: 3px solid lightslategray;
+
+}
+
+
+/* hospedaje */
+
+.vid2 {
+    margin-left: 3.2%;
 }
