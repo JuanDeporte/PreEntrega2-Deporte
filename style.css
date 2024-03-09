@@ -122,3 +122,10 @@ textarea {
 .vid2 {
     margin-left: 3.2%;
 }
+
+/* tutorial */
+
+.tuto {
+    text-align: center;
+    background-color:rgb(45, 45, 113) ;
+}
